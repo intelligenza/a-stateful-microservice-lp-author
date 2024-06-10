@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM --platform=$BUILDPLATFORM rust:1.67 AS buildbase
+FROM --platform=$BUILDPLATFORM rust:1.78 AS buildbase
 WORKDIR /src
 RUN <<EOT bash
     set -ex
